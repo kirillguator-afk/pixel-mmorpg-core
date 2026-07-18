@@ -25,3 +25,11 @@ loop();
 setInterval(() => {
   peers.set('peer_'+Math.floor(Math.random()*100), {x: Math.random()*500, y: Math.random()*500});
 }, 5000);
+
+// Combat System
+window.addEventListener('keydown', e => {
+  if(e.key===' ') {
+    console.log('Player Attacked!');
+    // Collision detection logic to be added
+  }
+});
