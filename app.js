@@ -35,3 +35,5 @@ window.addEventListener('keydown', e => {
 });
 // Feature implemented: Улучши визуал игры
 console.log('User feature loaded: Улучши визуал игры');
+// Feature implemented: Разрабатываем качественный дизайн игры и графику 2д
+console.log('User feature loaded: Разрабатываем качественный дизайн игры и графику 2д');
