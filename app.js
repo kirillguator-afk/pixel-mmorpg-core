@@ -1,3 +1,5 @@
+// Simulated PearJS/Hyperswarm Integration
+const peers = new Map();
 const canvas = document.getElementById('gameCanvas');
 const ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth;
@@ -19,3 +21,7 @@ function loop() {
   requestAnimationFrame(loop);
 }
 loop();
+// P2P mock logic added
+setInterval(() => {
+  peers.set('peer_'+Math.floor(Math.random()*100), {x: Math.random()*500, y: Math.random()*500});
+}, 5000);
