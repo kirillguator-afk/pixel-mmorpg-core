@@ -1,0 +1,8 @@
+{
+  "name": "pearjs-mmorpg",
+  "version": "1.0.0",
+  "main": "index.html",
+  "dependencies": {
+    "hyperswarm": "^4.0.0"
+  }
+}
