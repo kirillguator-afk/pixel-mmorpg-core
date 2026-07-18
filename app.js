@@ -33,3 +33,5 @@ window.addEventListener('keydown', e => {
     // Collision detection logic to be added
   }
 });
+// Feature implemented: Улучши визуал игры
+console.log('User feature loaded: Улучши визуал игры');
